@@ -7,3 +7,5 @@ b:update = sudo dnf update -y:b
 b:axia3000 = ssh -p 2222 manuelguerra@axia3000.ddns.net:b
 
 b:clear = clear:b
+
+b:sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer):b
