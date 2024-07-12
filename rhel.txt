@@ -1,9 +1,9 @@
 # rules for rhel
 
-bb:fupdate = sudo dnf update -y && sudo dnf upgrade -y
+b:fupdate = sudo dnf update -y && sudo dnf upgrade -y:b
 
-bb:update = sudo dnf update -y
+b:update = sudo dnf update -y:b
 
-bb:axia3000 = ssh -p 2222 manuelguerra@axia3000.ddns.net
+b:axia3000 = ssh -p 2222 manuelguerra@axia3000.ddns.net:b
 
 
