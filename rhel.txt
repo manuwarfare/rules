@@ -6,4 +6,4 @@ b:update = sudo dnf update -y:b
 
 b:axia3000 = ssh -p 2222 manuelguerra@axia3000.ddns.net:b
 
-
+b:clear = clear:b
