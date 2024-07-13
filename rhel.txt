@@ -9,3 +9,5 @@ b:axia3000 = ssh -p 2222 manuelguerra@axia3000.ddns.net:b
 b:clear = clear:b
 
 b:plesk = sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer):b
+
+b:fail2log = sudo cat /var/log/fail2ban.log >> $HOME/fail2ban.log:b
